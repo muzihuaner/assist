@@ -10,6 +10,9 @@
 
 1.文本朗读   2.页面放大&缩小   3.大鼠标样式   4.十字线   5.大字幕  6.指读
 
+## 演示地址
+https://muzihuaner.github.io/assist/example/index.html
+
 ## 调用方式
 
 - 在网页合适的地方如banner处加入id为 assist-open 的标签；
@@ -204,7 +207,7 @@ CDN地址（可替换）
 - 所有主流浏览器
 - 火狐（不支持页面放大功能）
 
-<script type="text/javascript" src="https://fastly.jsdelivr.net/gh/muzihuaner/assist@master/dist/assist-entry.js"></script>
+
 
 [开发者关注](./DEVELOPER.md "开发者关注")
 
