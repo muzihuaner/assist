@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站无障碍工具条-Demo</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        h1{
+            text-align: center;
+            background-color: cornflowerblue;
+            color: aliceblue;
+        }
+        .open{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        .open>p{
+            background-color: black;
+            width: 240px;
+            font-weight: bold;
+            color: darkorange;
+        }
+        .open>div#assist-open{
+            margin-top: 20px;
+            width: 50px;
+            height: 25px;
+            line-height: 25px;
+            text-align: center;
+            border: 2px solid red;
+            border-radius: 5px;
+        }
+        .demo{
+            margin-top: 10px;
+            border: 4px dotted;
+        }
+        .demo>h3{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>网站无障碍工具条演示</h1>
+    <div class="open">
+        <p>点击下方按钮开启无障碍服务：</p> 
+        <div id='assist-open'>无障碍</div>
+    </div>
+    
+
+    <div class="demo">
+        <h3>无障碍文本标题</h3>
+        
+    <a href="https://github.com/muzihuaner/assist">跳转到 网站无障碍工具条</a><br>
+    <img alt="图片小鲁班" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.chinaxiaokang.com%2Fuploads%2Fimage%2F20170111%2F1484115699794500.jpg&refer=http%3A%2F%2Fwww.chinaxiaokang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1627191862&t=07409d7ec21933f941ec6ddbfe485fa2" />
+    </div>
+    <div class="demo">
+        <h3 title='我想要自行标注'>无障碍role标注</h3>
+    <div role="a" href="https://github.com/duheng">跳转到 墨子工程</div>
+    <img title="图片小鲁班" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.chinaxiaokang.com%2Fuploads%2Fimage%2F20170111%2F1484115699794500.jpg&refer=http%3A%2F%2Fwww.chinaxiaokang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1627191862&t=07409d7ec21933f941ec6ddbfe485fa2" />
+    </div>
+    <p>Tips: 可以使用浏览器F12查看本页代码</p>
+<script type="text/javascript" src="../dist/assist-entry.js"></script></body>
+</html>

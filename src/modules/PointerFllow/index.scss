@@ -1,0 +1,12 @@
+@mixin pointer {
+    z-index: 99999999999;
+    transform: none;
+    transform-origin: 0px 0px;
+    position:fixed; top:0;left:0; background-color:#ff0000 !important; width:100%; height:4px;
+}
+.pointer-follow-html {
+    &-x,&-y {
+        @include pointer;
+    }
+    &-y { height:100%; width:4px; }
+}
