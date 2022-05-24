@@ -44,6 +44,14 @@ CDN地址（可替换）
 <script type="text/javascript" src="https://fastly.jsdelivr.net/gh/muzihuaner/assist@main/dist/assist-entry.js"></script>
 ```
 
+无障碍图标样式
+
+<img src="https://a.sinaimg.cn/mintra/pic/2201190827/32aria.png" style="zoom:25%;" />
+
+```html
+<div><img src="https://a.sinaimg.cn/mintra/pic/2201190827/32aria.png" height="32px" id='assist-open'></div>
+```
+
 ## API
 
 - showTag; 用于打开无障碍标识，（点击无障碍后并不在当前页面打开，而是跳转到其他没有调用showTag的页面打开）
