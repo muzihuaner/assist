@@ -38,7 +38,7 @@
 CDN地址（可替换）
 
 ```html
-<script type="text/javascript" src="https://fastly.jsdelivr.net/gh/muzihuaner/assist@master/dist/assist-entry.js"></script>
+<script type="text/javascript" src="https://fastly.jsdelivr.net/gh/muzihuaner/assist@main/dist/assist-entry.js"></script>
 ```
 
 ## API
