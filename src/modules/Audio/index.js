@@ -169,7 +169,7 @@ degradationAudioAction(text) {
         return
     }
    let __speed = speed == 'middle' ? -150 : 0
-   let  AudioParam = `speed=${__speed}&text=${encodeURI(text)}&V=${Date.now()}`
+   let  AudioParam = `le=zh&audio=${encodeURI(text)}`
    let AudioUrl = `${AudioApi}?${AudioParam}`
     audio.src = AudioUrl
     document.getElementById(`${namespace}-audio-source`).src =  AudioUrl

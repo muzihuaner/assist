@@ -11,6 +11,7 @@
 1.文本朗读   2.页面放大&缩小   3.大鼠标样式   4.十字线   5.大字幕  6.指读
 
 ## 演示地址
+
 https://muzihuaner.github.io/assist/example/index.html
 
 ## 调用方式
@@ -215,8 +216,6 @@ CDN地址（可替换）
 - 所有主流浏览器
 - 火狐（不支持页面放大功能）
 
-
-
 [开发者关注](./DEVELOPER.md "开发者关注")
 
 参考：
@@ -226,6 +225,4 @@ https://github.com/gemgin/AmblyopiaTool
 
 https://blog.csdn.net/Z51047299/article/details/123617530
 
-本项目使用百度TTS，可参考
-https://www.cnblogs.com/HGNET/p/16304126.html
-
+本项目使用了网易有道词典语音API
